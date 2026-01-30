@@ -326,11 +326,15 @@ export default function PilotTrainingPage() {
                 exit={{ opacity: 0, x: -40 }}
                 transition={{ duration: 0.4 }}
                 className="
-  bg-white text-black rounded-tl-[60px] rounded-tr-none rounded-br-none rounded-bl-none
- shadow-xl
-  p-16 overflow-y-auto
+  bg-white text-black 
+  rounded-tl-[60px] 
+  shadow-xl
+  p-16 
+  pt-24
+  overflow-y-auto
   w-full lg:w-[95%]
 "
+
 
               >
                 <h1 className="text-[100px] font-montserrat font-bold leading-none">
