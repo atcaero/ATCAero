@@ -12,7 +12,7 @@ module.exports = {
         gold: "#bd9a68ff",
         gold2: "#D3AF6B",
         goldSoft: "#E7C88F",
-        red: "#B72041",       
+        red: "#B72041",
         blackDeep: "#0D0D0D",
         blackSoft: "#171717",
         whiteSoft: "#F6F4EF",
@@ -20,8 +20,24 @@ module.exports = {
       fontFamily: {
         cormorant: "var(--font-cormorant)",
       },
-    }
 
+      /* 👇 ADD THIS */
+      keyframes: {
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.35s ease-out",
+        "accordion-up": "accordion-up 0.3s ease-out",
+      },
+      /* 👆 END */
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };

@@ -108,7 +108,7 @@ export default function ContactPage() {
                 />
               </div>
 
-              {/* ROW 2 - Course Selection */}
+              {/* ROW 4 - Course Selection */}
               <div className="w-full">
                 <Select
                   name="course"

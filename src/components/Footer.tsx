@@ -58,7 +58,7 @@ export default function Footer() {
               <Link href="/brochure" className="block hover:opacity-90 transition">
                 Download Brochure
               </Link>
-              <Link href="/privacy-policy" className="block hover transition text-white/90">
+              <Link href="/privacy" className="block hover transition text-white/90">
                 Privacy Policy
               </Link>
               <Link href="/contact" className="block hover transition text-white/90">

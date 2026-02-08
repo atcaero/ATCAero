@@ -48,27 +48,22 @@ export default function FAQ() {
               </AccordionTrigger>
 
               <AccordionContent
-                className="font-inter text-white text-sm sm:text-base md:text-lg pt-3 sm:pt-4 pr-4 sm:pr-6 md:pr-8 pb-4 sm:pb-5 md:pb-6 leading-relaxed"
-              >
+  className="
+    font-inter text-white text-sm sm:text-base md:text-lg
+    overflow-hidden
+    data-[state=closed]:animate-accordion-up
+    data-[state=open]:animate-accordion-down
+    pt-3 sm:pt-4 pr-4 sm:pr-6 md:pr-8 pb-4 sm:pb-5 md:pb-6
+    leading-relaxed
+  "
+>
+
                 We offer Pilot Training, Cabin Crew, Drone Training, Travel & Tourism,
                 and Airport Operations courses.
               </AccordionContent>
             </AccordionItem>
 
             {/* FAQ ROW 2 */}
-            <AccordionItem value="item-2" className="border-b border-[#C49A60] py-3 sm:py-4">
-              <AccordionTrigger
-                className="text-lg sm:text-xl md:text-2xl lg:text-white font-cormorant text-white hover:no-underline pr-2 text-left"
-              >
-                Is your Pilot Training DGCA-approved?
-              </AccordionTrigger>
-
-              <AccordionContent className="font-inter text-sm sm:text-base md:text-lg text-white pt-3 sm:pt-4 pr-4 sm:pr-6 md:pr-8 pb-4 sm:pb-5 md:pb-6 leading-relaxed">
-                Yes, our Pilot Training meets DGCA curriculum and regulatory standards.
-              </AccordionContent>
-            </AccordionItem>
-
-            {/* FAQ ROW 3 */}
             <AccordionItem value="item-3" className="border-b border-[#C49A60] py-3 sm:py-4">
               <AccordionTrigger
                 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] font-cormorant text-white hover:no-underline pr-2 text-left"
@@ -81,7 +76,7 @@ export default function FAQ() {
               </AccordionContent>
             </AccordionItem>
 
-            {/* FAQ ROW 4 */}
+            {/* FAQ ROW 3 */}
             <AccordionItem value="item-4" className="border-b border-[#C49A60] py-3 sm:py-4">
               <AccordionTrigger
                 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] font-cormorant text-white hover:no-underline pr-2 text-left"
