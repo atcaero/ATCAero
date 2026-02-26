@@ -11,10 +11,10 @@ export default function Footer() {
     <footer className="w-full text-white">
       {/* TOP LINKS */}
       <div className="max-w-7xl mx-auto px-6 lg:px-16 pt-16 pb-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 text-center lg:text-left justify-items-center lg:justify-items-start">
 
           {/* About */}
-          <div className="space-y-4">
+          <div className="space-y-4 max-w-xs">
             <h3 className="text-lg font-semibold font-monda">About</h3>
             <div className="space-y-3 text-white/90 font-inter">
               <Link href="/about" className="block hover transition">
@@ -95,22 +95,15 @@ export default function Footer() {
 
           {/* Corporate Office */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold font-monda">Corporate Office</h3>
+            <div className="space-y-2">
+              <h4 className="text-sm font-semibold">Contact Number:</h4>
+              <p>+91 9355133320</p>
+              <p>+91 9355277747</p>
+            </div>
 
-            <div className="text-white/90 font-inter space-y-4 leading-relaxed">
-              Plot No. 16, Block H-1/A <br />
-              Sector-63, Noida, 161301<br />
-
-              <p>   <br />
-                <h3 className="text-lg font-semibold font-monda">Contact Number:</h3>
-                +91 9355133320<br />
-                +91 9355277747
-              </p>
-
-              <p>
-                <h3 className="text-lg font-semibold font-monda">Email:</h3>
-                <span className="font-semibold">info.atcaviation@gmail.com</span>
-              </p>
+            <div className="space-y-2">
+              <h4 className="text-sm font-semibold">Email:</h4>
+              <p className="font-semibold">info.atcaviation@gmail.com</p>
             </div>
           </div>
 
