@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { FaLinkedinIn, FaFacebookF, FaInstagram  } from "react-icons/fa";
-import { FiMapPin  } from "react-icons/fi";
+import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FiMapPin } from "react-icons/fi";
 
 
 export default function Footer() {
@@ -32,24 +32,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Facilities */}
-          <div className="space-y-4">
-            <h3 className="text-lg font-semibold font-monda">Facilities</h3>
-            <div className="space-y-3 text-white/90 font-inter">
-              <Link href="/fleet" className="block hover transition">
-                Fleet
-              </Link>
-              <Link href="/campus" className="block hover transition">
-                Campus
-              </Link>
-              <Link href="drome" className="block hover transition">
-              drome
-              </Link>
-              <Link href="/statistics" className="block hover transition">
-                Statistics
-              </Link>
-            </div>
-          </div>
+
 
           {/* Quick Links */}
           <div className="space-y-4">
@@ -58,7 +41,7 @@ export default function Footer() {
               <Link href="/brochure" className="block hover:opacity-90 transition">
                 Download Brochure
               </Link>
-              <Link href="/privacy" className="block hover transition text-white/90">
+              <Link href="/privacy-policy" className="block hover transition text-white/90">
                 Privacy Policy
               </Link>
               <Link href="/contact" className="block hover transition text-white/90">
@@ -116,12 +99,12 @@ export default function Footer() {
 
             <div className="text-white/90 font-inter space-y-4 leading-relaxed">
               Plot No. 16, Block H-1/A <br />
-                  Sector-63, Noida, 161301<br />
+              Sector-63, Noida, 161301<br />
 
-              <p>   <br/>
-                <h3 className="text-lg font-semibold font-monda">Contact Number:</h3> 
-                +91 9355133316<br />
-                  +91 9355277747
+              <p>   <br />
+                <h3 className="text-lg font-semibold font-monda">Contact Number:</h3>
+                +91 9355133320<br />
+                +91 9355277747
               </p>
 
               <p>
@@ -148,28 +131,28 @@ export default function Footer() {
 
           {/* Social Icons */}
           {/* Social Icons */}
-<div className="flex items-center gap-5 mt-6">
-  <SocialIcon
-    href="#"
-    icon={<FaLinkedinIn size={16} />}
-    bg="bg-[#0A66C2]/80"   // LinkedIn Blue
-  />
-  <SocialIcon
-    href="#"
-    icon={<FaInstagram size={16} />}
-    bg="bg-[#E1306C]/80"   // Instagram Red/Pink
-  />
-  <SocialIcon
-    href="#"
-    icon={<FaFacebookF size={16} />}
-    bg="bg-[#1877F2]/80"   // Facebook Blue
-  />
-  <SocialIcon
-    href="#"
-    icon={<FiMapPin   size={16} />}
-    bg="bg-[#FF0000]/80"   // YouTube Red
-  />
-</div>
+          <div className="flex items-center gap-5 mt-6">
+            <SocialIcon
+              href="#"
+              icon={<FaLinkedinIn size={16} />}
+              bg="bg-[#0A66C2]/80"   // LinkedIn Blue
+            />
+            <SocialIcon
+              href="#"
+              icon={<FaInstagram size={16} />}
+              bg="bg-[#E1306C]/80"   // Instagram Red/Pink
+            />
+            <SocialIcon
+              href="#"
+              icon={<FaFacebookF size={16} />}
+              bg="bg-[#1877F2]/80"   // Facebook Blue
+            />
+            <SocialIcon
+              href="#"
+              icon={<FiMapPin size={16} />}
+              bg="bg-[#FF0000]/80"   // YouTube Red
+            />
+          </div>
 
         </div>
       </div>

@@ -15,7 +15,7 @@ export default function FAQ() {
 
         {/* LEFT SIDE */}
         <div className="text-center lg:text-left">
-          <p className="tracking-[0.25em] text-bold sm:tracking-[0.3em] md:tracking-[0.35em] text-gold uppercase mb-4 sm:mb-5 md:mb-6 text-xs sm:text-sm font-monda">
+          <p className="tracking-[0.25em] text-bold sm:tracking-[0.3em] md:tracking-[0.35em] bg-gold bg-clip-text text-transparent uppercase mb-4 sm:mb-5 md:mb-6 text-xs sm:text-sm font-monda">
             Frequently Asked Questions
           </p>
 

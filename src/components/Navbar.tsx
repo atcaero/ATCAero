@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileCoursesOpen, setMobileCoursesOpen] = useState(false);
-  
+
   // New state to track if we are over a red background
   const [isRedBg, setIsRedBg] = useState(false);
 
@@ -28,7 +28,7 @@ export const Navbar = () => {
       redSections.forEach((section) => {
         if (section instanceof HTMLElement) {
           const rect = section.getBoundingClientRect();
-          
+
           // Check if the navbar overlaps with the section
           // rect.top < navbarHeight: Section top is above the navbar bottom
           // rect.bottom > 0: Section bottom is below the viewport top
@@ -44,7 +44,7 @@ export const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     // Trigger once on mount to set initial state
     handleScroll();
-    
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -69,11 +69,11 @@ export const Navbar = () => {
       >
         {/* Logo - Switch based on isRedBg state */}
         <Link href="/" className="flex-shrink-0">
-          <img 
+          <img
             // CHANGE THIS: Replace '/logo-gold.png' with the specific logo file you want on red backgrounds
-            src={isRedBg ? "/logo-gold.png" : "/logo.png"} 
-            className="h-10 md:h-12 w-auto transition-all duration-300" 
-            alt="Logo" 
+            src={isRedBg ? "/logo-gold.png" : "/logo.png"}
+            className="h-10 md:h-12 w-auto transition-all duration-300"
+            alt="Logo"
           />
         </Link>
 
@@ -226,8 +226,8 @@ const MobileNavItem = ({
 
 const DropItem = ({ label, href }: { label: string; href: string }) => (
   <Link href={href} className="block w-full">
-    <motion.div 
-      whileHover={{ x: 6 }} 
+    <motion.div
+      whileHover={{ x: 6 }}
       className="text-white/90 hover:text-gold cursor-pointer transition-colors"
     >
       {label}

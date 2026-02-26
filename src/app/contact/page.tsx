@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { Mail, Phone, MapPin, ChevronDown } from "lucide-react";
-import { Navbar } from "@/src/components/Navbar";
-import Footer from "@/src/components/Footer";
+import { Navbar } from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { useState } from "react";
 
 export default function ContactPage() {
@@ -77,34 +77,34 @@ export default function ContactPage() {
             <form onSubmit={handleSubmit} className="mt-12 space-y-6">
               {/* ROW 1 */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                <Input 
-                  name="firstName" 
-                  placeholder="Enter Your First Name" 
-                  value={formData.firstName} 
-                  onChange={handleChange} 
+                <Input
+                  name="firstName"
+                  placeholder="Enter Your First Name"
+                  value={formData.firstName}
+                  onChange={handleChange}
                 />
-                <Input 
-                  name="lastName" 
-                  placeholder="Enter Your Last Name" 
-                  value={formData.lastName} 
-                  onChange={handleChange} 
+                <Input
+                  name="lastName"
+                  placeholder="Enter Your Last Name"
+                  value={formData.lastName}
+                  onChange={handleChange}
                 />
               </div>
 
 
               {/* ROW 3 */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                <Input 
-                  name="phone" 
-                  placeholder="Enter Your Phone Number" 
-                  value={formData.phone} 
-                  onChange={handleChange} 
+                <Input
+                  name="phone"
+                  placeholder="Enter Your Phone Number"
+                  value={formData.phone}
+                  onChange={handleChange}
                 />
-                <Input 
-                  name="email" 
-                  placeholder="Enter Your Email" 
-                  value={formData.email} 
-                  onChange={handleChange} 
+                <Input
+                  name="email"
+                  placeholder="Enter Your Email"
+                  value={formData.email}
+                  onChange={handleChange}
                 />
               </div>
 
@@ -256,7 +256,7 @@ function Select({ placeholder, options, name, value, onChange }: SelectProps) {
           </option>
         ))}
       </select>
-      
+
       {/* Custom Arrow Icon */}
       <div className="absolute inset-y-0 right-4 flex items-center pointer-events-none text-gold">
         <ChevronDown size={20} />

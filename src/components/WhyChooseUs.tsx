@@ -1,6 +1,6 @@
 "use client";
 
-import FlipBox from "./FlipBox";
+import PeelCard from "./PeelCard";
 
 export const WhyChooseUs = () => {
   return (
@@ -15,7 +15,7 @@ export const WhyChooseUs = () => {
 
           <h2 className="font-cormorant text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight sm:leading-[1.15] text-[#1A1A1A] mb-6 sm:mb-8 md:mb-10">
             Choose ATC <br />
-            for 
+            for
             Your Aviation <br />
             Success
           </h2>
@@ -33,89 +33,89 @@ export const WhyChooseUs = () => {
           {/* GRID - Responsive columns */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md: lg:gap-x-16 xl:gap-x-8 lg:gap-y-16 xl:gap-y-20">
 
-  <FlipBox
-    front={
-      <div className="text-center">
-        <h3 className="text-4xl text-black font-cormorant">01</h3>
-        <h4 className="text-2xl text-black font-cormorant">DGCA-Approved Training</h4>
-      </div>
-    }
-    back={
-      <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
-        We provide courses that meet DGCA standards for top-notch aviation education.
-      </p>
-    }
-  />
+            <PeelCard
+              front={
+                <div className="text-center">
+                  <h3 className="text-4xl text-black font-cormorant">01</h3>
+                  <h4 className="text-2xl text-black font-cormorant">DGCA-Approved Training</h4>
+                </div>
+              }
+              back={
+                <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
+                  We provide courses that meet DGCA standards for top-notch aviation education.
+                </p>
+              }
+            />
 
-  <FlipBox
-    front={
-      <div className="text-center">
-        <h3 className="text-4xl text-black font-cormorant">02</h3>
-        <h4 className="text-2xl text-black font-cormorant">Industry-Relevant Curriculum</h4>
-      </div>
-    }
-    back={
-      <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
-        Stay ahead with courses designed around aviation industry trends.
-      </p>
-    }
-  />
+            <PeelCard
+              front={
+                <div className="text-center">
+                  <h3 className="text-4xl text-black font-cormorant">02</h3>
+                  <h4 className="text-2xl text-black font-cormorant">Industry-Relevant Curriculum</h4>
+                </div>
+              }
+              back={
+                <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
+                  Stay ahead with courses designed around aviation industry trends.
+                </p>
+              }
+            />
 
-  <FlipBox
-    front={
-      <div className="text-center">
-        <h3 className="text-4xl text-black font-cormorant">03</h3>
-        <h4 className="text-2xl text-black font-cormorant">Global Opportunities</h4>
-      </div>
-    }
-    back={
-      <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
-        Gain opportunities through worldwide aviation partnerships.
-      </p>
-    }
-  />
+            <PeelCard
+              front={
+                <div className="text-center">
+                  <h3 className="text-4xl text-black font-cormorant">03</h3>
+                  <h4 className="text-2xl text-black font-cormorant">Global Opportunities</h4>
+                </div>
+              }
+              back={
+                <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
+                  Gain opportunities through worldwide aviation partnerships.
+                </p>
+              }
+            />
 
-  <FlipBox
-    front={
-      <div className="text-center">
-        <h3 className="text-4xl text-black font-cormorant">04</h3>
-        <h4 className="text-2xl text-black font-cormorant">Hands-On Training</h4>
-      </div>
-    }
-    back={
-      <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
-        Experience real-time flying and practical operations.
-      </p>
-    }
-  />
+            <PeelCard
+              front={
+                <div className="text-center">
+                  <h3 className="text-4xl text-black font-cormorant">04</h3>
+                  <h4 className="text-2xl text-black font-cormorant">Hands-On Training</h4>
+                </div>
+              }
+              back={
+                <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
+                  Experience real-time flying and practical operations.
+                </p>
+              }
+            />
 
-  <FlipBox
-    front={
-      <div className="text-center">
-        <h3 className="text-4xl text-black font-cormorant">05</h3>
-        <h4 className="text-2xl text-black font-cormorant">Comprehensive Support</h4>
-      </div>
-    }
-    back={
-      <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
-        From interview prep to full guidance — we support your journey.
-      </p>
-    }
-  />
+            <PeelCard
+              front={
+                <div className="text-center">
+                  <h3 className="text-4xl text-black font-cormorant">05</h3>
+                  <h4 className="text-2xl text-black font-cormorant">Comprehensive Support</h4>
+                </div>
+              }
+              back={
+                <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
+                  From interview prep to full guidance — we support your journey.
+                </p>
+              }
+            />
 
-  <FlipBox
-    front={
-      <div className="text-center">
-        <h3 className="text-4xl text-black font-cormorant">06</h3>
-        <h4 className="text-2xl text-black font-cormorant">Personalized Learning</h4>
-      </div>
-    }
-    back={
-      <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
-        Customized training programs tailored to your aviation goals.
-      </p>
-    }
-  />
+            <PeelCard
+              front={
+                <div className="text-center">
+                  <h3 className="text-4xl text-black font-cormorant">06</h3>
+                  <h4 className="text-2xl text-black font-cormorant">Personalized Learning</h4>
+                </div>
+              }
+              back={
+                <p className="text-white font-cormorant text-sm sm:text-base leading-relaxed">
+                  Customized training programs tailored to your aviation goals.
+                </p>
+              }
+            />
 
 
 

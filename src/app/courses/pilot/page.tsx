@@ -5,8 +5,8 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaPlaneDeparture } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
-import { Navbar } from "@/src/components/Navbar";
-import Footer from "@/src/components/Footer";
+import { Navbar } from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const courses = [
   {
@@ -77,181 +77,181 @@ const courses = [
   },
 
   {
-  id: 2,
-  title: "Private Pilot License",
-  number: "02",
-  description:
-    "The Private Pilot License (PPL) allows individuals to fly aircraft for personal purposes and recreational flying. It is the perfect entry point into aviation for those who want to fly purely for passion.",
+    id: 2,
+    title: "Private Pilot License",
+    number: "02",
+    description:
+      "The Private Pilot License (PPL) allows individuals to fly aircraft for personal purposes and recreational flying. It is the perfect entry point into aviation for those who want to fly purely for passion.",
 
-  requirements: [
-    { label: "Age :", value: "At least 16 years old." },
-    {
-      label: "Education Qualifications :",
-      value:
-        "Class 10th (or equivalent) with a minimum of 55% aggregate marks.",
+    requirements: [
+      { label: "Age :", value: "At least 16 years old." },
+      {
+        label: "Education Qualifications :",
+        value:
+          "Class 10th (or equivalent) with a minimum of 55% aggregate marks.",
+      },
+      {
+        label: "Medical Fitness :",
+        value:
+          "Class 2 Medical Examination conducted by a DGCA-approved medical examiner.",
+      },
+    ],
+
+    about: {
+      description: `The Private Pilot License training program is designed for aviation enthusiasts who wish to experience the joy of flying. This program focuses on developing strong flying fundamentals, navigation skills, and communication abilities while ensuring international aviation standards are met.`,
+
+      components: [
+        {
+          title: "Flight Training",
+          text: "Minimum of 40 hours of flight training including dual instruction and solo flying.",
+        },
+        {
+          title: "Theory Examinations",
+          text: "Subjects include Air Regulations, Meteorology, Navigation, Aircraft Systems, and Flight Planning.",
+        },
+        {
+          title: "Cross-Country Flying",
+          text: "Planned and executed flights beyond a specified distance to build navigation skills.",
+        },
+        {
+          title: "Radio Telephony Communication",
+          text: "Training for effective air-ground communication and obtaining RTR license.",
+        },
+        {
+          title: "ICAO Language Proficiency",
+          text: "Demonstration of ICAO English language proficiency at an operational level.",
+        },
+      ],
     },
-    {
-      label: "Medical Fitness :",
-      value:
-        "Class 2 Medical Examination conducted by a DGCA-approved medical examiner.",
-    },
-  ],
 
-  about: {
-    description: `The Private Pilot License training program is designed for aviation enthusiasts who wish to experience the joy of flying. This program focuses on developing strong flying fundamentals, navigation skills, and communication abilities while ensuring international aviation standards are met.`,
-
-    components: [
+    documents: [
       {
-        title: "Flight Training",
-        text: "Minimum of 40 hours of flight training including dual instruction and solo flying.",
+        title: "Educational Qualifications",
+        text: "High school or college certificates or academic transcripts.",
       },
       {
-        title: "Theory Examinations",
-        text: "Subjects include Air Regulations, Meteorology, Navigation, Aircraft Systems, and Flight Planning.",
-      },
-      {
-        title: "Cross-Country Flying",
-        text: "Planned and executed flights beyond a specified distance to build navigation skills.",
-      },
-      {
-        title: "Radio Telephony Communication",
-        text: "Training for effective air-ground communication and obtaining RTR license.",
-      },
-      {
-        title: "ICAO Language Proficiency",
-        text: "Demonstration of ICAO English language proficiency at an operational level.",
+        title: "Identification Documents",
+        text: "Valid passport or other government-issued identification document.",
       },
     ],
   },
+  {
+    id: 3,
+    title: "Flight Instructor’s Rating",
+    number: "03",
+    description:
+      "A Flight Instructor Rating (FIR) qualifies a pilot to train aspiring pilots. It marks a key milestone in a pilot’s career by allowing them to pass on expertise while strengthening aviation safety standards.",
 
-  documents: [
-    {
-      title: "Educational Qualifications",
-      text: "High school or college certificates or academic transcripts.",
-    },
-    {
-      title: "Identification Documents",
-      text: "Valid passport or other government-issued identification document.",
-    },
-  ],
-},
-{
-  id: 3,
-  title: "Flight Instructor’s Rating",
-  number: "03",
-  description:
-    "A Flight Instructor Rating (FIR) qualifies a pilot to train aspiring pilots. It marks a key milestone in a pilot’s career by allowing them to pass on expertise while strengthening aviation safety standards.",
-
-  requirements: [
-    {
-      label: "Commercial Pilot License (CPL) :",
-      value: "Must hold a valid CPL issued by the DGCA.",
-    },
-    {
-      label: "Medical Fitness :",
-      value:
-        "Class 1 Medical Examination conducted by a DGCA-approved medical examiner.",
-    },
-    {
-      label: "Flight Experience :",
-      value:
-        "Minimum of 200 flight hours including 100 hours as Pilot-in-Command (PIC) and 25 hours of cross-country flying.",
-    },
-  ],
-
-  about: {
-    description: `A Flight Instructor Rating (FIR) enables licensed pilots to provide flight training to aspiring aviators. It is a crucial career progression step that focuses on developing instructional skills, leadership, and decision-making while contributing to safe and structured pilot training.`,
-
-    components: [
+    requirements: [
       {
-        title: "Training Program",
-        text: "Focuses on teaching methodologies, instructional techniques, flight training procedures, and aviation safety.",
+        label: "Commercial Pilot License (CPL) :",
+        value: "Must hold a valid CPL issued by the DGCA.",
       },
       {
-        title: "Knowledge Requirements",
-        text: "Covers aerodynamics, flight operations, human factors, teaching methods, and student evaluation techniques.",
+        label: "Medical Fitness :",
+        value:
+          "Class 1 Medical Examination conducted by a DGCA-approved medical examiner.",
       },
       {
-        title: "Practical Training",
-        text: "Hands-on experience in delivering flight instruction, conducting ground briefings, and assessing student performance.",
+        label: "Flight Experience :",
+        value:
+          "Minimum of 200 flight hours including 100 hours as Pilot-in-Command (PIC) and 25 hours of cross-country flying.",
+      },
+    ],
+
+    about: {
+      description: `A Flight Instructor Rating (FIR) enables licensed pilots to provide flight training to aspiring aviators. It is a crucial career progression step that focuses on developing instructional skills, leadership, and decision-making while contributing to safe and structured pilot training.`,
+
+      components: [
+        {
+          title: "Training Program",
+          text: "Focuses on teaching methodologies, instructional techniques, flight training procedures, and aviation safety.",
+        },
+        {
+          title: "Knowledge Requirements",
+          text: "Covers aerodynamics, flight operations, human factors, teaching methods, and student evaluation techniques.",
+        },
+        {
+          title: "Practical Training",
+          text: "Hands-on experience in delivering flight instruction, conducting ground briefings, and assessing student performance.",
+        },
+        {
+          title: "Examinations",
+          text: "Includes written exams on aviation theory and instruction methods, along with practical flight and teaching assessments.",
+        },
+      ],
+    },
+
+    documents: [
+      {
+        title: "Logbook Records",
+        text: "Logbook entries reflecting total flight hours, PIC hours, cross-country experience, and relevant flight details.",
       },
       {
-        title: "Examinations",
-        text: "Includes written exams on aviation theory and instruction methods, along with practical flight and teaching assessments.",
+        title: "Educational Qualifications",
+        text: "High school or college certificates or academic transcripts.",
+      },
+      {
+        title: "Identification Documents",
+        text: "Valid passport or other government-issued identification document.",
       },
     ],
   },
+  {
+    id: 4,
+    title: "Multi-Engine Rating",
+    number: "04",
+    description:
+      "Multi-Engine Rating qualifies a pilot to operate aircraft with more than one engine. It is typically pursued after obtaining a Private or Commercial Pilot License to advance flying skills and operational capability.",
 
-  documents: [
-    {
-      title: "Logbook Records",
-      text: "Logbook entries reflecting total flight hours, PIC hours, cross-country experience, and relevant flight details.",
-    },
-    {
-      title: "Educational Qualifications",
-      text: "High school or college certificates or academic transcripts.",
-    },
-    {
-      title: "Identification Documents",
-      text: "Valid passport or other government-issued identification document.",
-    },
-  ],
-},
-{
-  id: 4,
-  title: "Multi-Engine Rating",
-  number: "04",
-  description:
-    "Multi-Engine Rating qualifies a pilot to operate aircraft with more than one engine. It is typically pursued after obtaining a Private or Commercial Pilot License to advance flying skills and operational capability.",
-
-  requirements: [
-    {
-      label: "Pilot License :",
-      value:
-        "Hold a valid Commercial Pilot License (CPL) or Private Pilot License (PPL) issued by the DGCA or an equivalent aviation authority.",
-    },
-    {
-      label: "Total Flight Experience :",
-      value:
-        "Minimum flight experience of approximately 185 total flight hours.",
-    },
-    {
-      label: "Medical Certificate :",
-      value:
-        "Valid medical certificate appropriate for the category of aircraft being operated.",
-    },
-  ],
-
-  about: {
-    description: `Multi-Engine Rating is an advanced qualification that allows pilots to fly aircraft equipped with more than one engine. This training enhances technical knowledge, decision-making skills, and safety awareness required for complex aircraft operations.`,
-
-    components: [
+    requirements: [
       {
-        title: "Ground Training",
-        text: "Covers multi-engine aircraft systems, aerodynamics, performance calculations, emergency procedures, and operational considerations specific to multi-engine aircraft.",
+        label: "Pilot License :",
+        value:
+          "Hold a valid Commercial Pilot License (CPL) or Private Pilot License (PPL) issued by the DGCA or an equivalent aviation authority.",
       },
       {
-        title: "Flight Training",
-        text: "Includes practical instruction on normal operations, engine failure procedures, single-engine operations, and asymmetric flight handling techniques.",
+        label: "Total Flight Experience :",
+        value:
+          "Minimum flight experience of approximately 185 total flight hours.",
+      },
+      {
+        label: "Medical Certificate :",
+        value:
+          "Valid medical certificate appropriate for the category of aircraft being operated.",
       },
     ],
-  },
 
-  documents: [
-    {
-      title: "Logbook Records",
-      text: "Logbook entries showing total flight hours, PIC hours, cross-country experience, and relevant multi-engine flight details.",
+    about: {
+      description: `Multi-Engine Rating is an advanced qualification that allows pilots to fly aircraft equipped with more than one engine. This training enhances technical knowledge, decision-making skills, and safety awareness required for complex aircraft operations.`,
+
+      components: [
+        {
+          title: "Ground Training",
+          text: "Covers multi-engine aircraft systems, aerodynamics, performance calculations, emergency procedures, and operational considerations specific to multi-engine aircraft.",
+        },
+        {
+          title: "Flight Training",
+          text: "Includes practical instruction on normal operations, engine failure procedures, single-engine operations, and asymmetric flight handling techniques.",
+        },
+      ],
     },
-    {
-      title: "Educational Qualifications",
-      text: "High school or college certificates or academic transcripts.",
-    },
-    {
-      title: "Identification Documents",
-      text: "Valid passport or other government-issued identification document.",
-    },
-  ],
-}
+
+    documents: [
+      {
+        title: "Logbook Records",
+        text: "Logbook entries showing total flight hours, PIC hours, cross-country experience, and relevant multi-engine flight details.",
+      },
+      {
+        title: "Educational Qualifications",
+        text: "High school or college certificates or academic transcripts.",
+      },
+      {
+        title: "Identification Documents",
+        text: "Valid passport or other government-issued identification document.",
+      },
+    ],
+  }
 
 ];
 
@@ -370,72 +370,72 @@ export default function PilotTrainingPage() {
       </section>
 
       {/* ABOUT PROGRAM SECTION */}
-<section className="relative bg-white text-black py-24 px-6 lg:px-20">
-  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[65%_35%] gap-16">
+      <section className="relative bg-white text-black py-24 px-6 lg:px-20">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[65%_35%] gap-16">
 
-    {/* LEFT CONTENT */}
-    <motion.div
-      key={active}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
-    >
-      {/* Pill */}
-      <div className="inline-block mb-8 px-6 py-2 border-2 border-dashed border-gold rounded-full">
-        <span className="font-monda text-sm tracking-wide text-gold">
-          ABOUT PROGRAM
-        </span>
-      </div>
+          {/* LEFT CONTENT */}
+          <motion.div
+            key={active}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4 }}
+          >
+            {/* Pill */}
+            <div className="inline-block mb-8 px-6 py-2 border-2 border-dashed border-transparent bg-gold bg-clip-border rounded-full">
+              <span className="font-monda text-sm tracking-wide bg-gold text-white bg-clip-text">
+                ABOUT PROGRAM
+              </span>
+            </div>
 
-      <p className="font-inter text-lg text-[#333] leading-relaxed max-w-3xl">
-        {courses[active].about.description}
-      </p>
-
-      <h3 className="mt-10 mb-6 font-monda text-xl font-semibold">
-        Program Components
-      </h3>
-
-      <ul className="space-y-6 font-inter text-lg text-[#333]">
-        {courses[active].about.components.map((item, i) => (
-          <li key={i} className="flex gap-4">
-            <span className="mt-2 w-2 h-2 bg-black rounded-full" />
-            <p>
-              <strong>{item.title} :</strong> {item.text}
+            <p className="font-inter text-lg text-[#333] leading-relaxed max-w-3xl">
+              {courses[active].about.description}
             </p>
-          </li>
-        ))}
-      </ul>
-    </motion.div>
 
-    {/* RIGHT CARD */}
-    <motion.div
-      key={`docs-${active}`}
-      initial={{ opacity: 0, x: 30 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.4 }}
-      className="relative"
-    >
-      <div className="hidden lg:block absolute -left-8 top-0 h-full border-l-2 border-dotted border-gold" />
+            <h3 className="mt-10 mb-6 font-monda text-xl font-semibold">
+              Program Components
+            </h3>
 
-      <div className="bg-gold text-white rounded-lg p-10 h-full">
-        <h3 className="font-monda text-2xl mb-10">
-          Document Required
-        </h3>
+            <ul className="space-y-6 font-inter text-lg text-[#333]">
+              {courses[active].about.components.map((item, i) => (
+                <li key={i} className="flex gap-4">
+                  <span className="mt-2 w-2 h-2 bg-black rounded-full" />
+                  <p>
+                    <strong>{item.title} :</strong> {item.text}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
 
-        <ul className="space-y-8 font-inter text-lg">
-          {courses[active].documents.map((doc, i) => (
-            <li key={i} className="flex gap-4">
-              <span className="mt-2 w-2 h-2 bg-white rounded-full" />
-              <p>
-                <strong>{doc.title} :</strong> {doc.text}
-              </p>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </motion.div>
-  </div>
-</section>
+          {/* RIGHT CARD */}
+          <motion.div
+            key={`docs-${active}`}
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.4 }}
+            className="relative"
+          >
+            <div className="hidden lg:block absolute -left-8 top-0 h-full border-l-2 border-dotted border-transparent bg-gold bg-clip-border" />
+
+            <div className="bg-gold text-black text-white rounded-lg p-10 h-full">
+              <h3 className="font-monda text-2xl mb-10">
+                Document Required
+              </h3>
+
+              <ul className="space-y-8 font-inter text-lg">
+                {courses[active].documents.map((doc, i) => (
+                  <li key={i} className="flex gap-4">
+                    <span className="mt-2 w-2 h-2 bg-white rounded-full" />
+                    <p>
+                      <strong>{doc.title} :</strong> {doc.text}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </motion.div>
+        </div>
+      </section>
 
 
 

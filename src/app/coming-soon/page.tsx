@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Navbar } from "@/src/components/Navbar";
-import Footer from "@/src/components/Footer";
+import { Navbar } from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { Plane } from "lucide-react";
 
 export default function ComingSoonPage() {
@@ -24,7 +24,7 @@ export default function ComingSoonPage() {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-gold/40 bg-white/5"
+            className="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-transparent bg-gold bg-clip-border/40 bg-white/5"
           >
             <Plane className="text-gold" size={18} />
             <span className="text-sm tracking-[0.3em] uppercase text-white/80 font-montserrat">
