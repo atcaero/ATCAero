@@ -4,8 +4,6 @@ import { Course } from "../components/Course";
 import { AboutSection } from "../components/AboutSection";
 import { StatsSection } from "../components/StatsSection";
 import { WhyChooseUs } from "../components/WhyChooseUs";
-import Testimonials from "../components/Testimonials";
-import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -15,8 +13,8 @@ export default function Home() {
       <Navbar />
 
       <HeroSection />
-      <div 
-  className="
+      <div
+        className="
     bg-red 
     rounded-t-[90px] 
     mt-[-40px] 
@@ -24,13 +22,12 @@ export default function Home() {
     pb-10
     relative z-20
   "
->
-  <Course />
-</div>
+      >
+        <Course />
+      </div>
 
-      <AboutSection/> 
+      <AboutSection />
       <WhyChooseUs />
-      {/* <Testimonials/> */}
       <FAQ />
 
 
