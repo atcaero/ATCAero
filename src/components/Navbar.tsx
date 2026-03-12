@@ -70,11 +70,7 @@ export const Navbar = () => {
         {/* Logo - Switch based on isRedBg state */}
         <Link href="/" className="flex-shrink-0">
           <img
-<<<<<<< Updated upstream
             // CHANGE THIS: Replace '/logo-gold.png' with the specific logo file you want on red backgrounds
-=======
-            // CHANGE THIS: Replace '/logo-gold-gradient.png' with the specific logo file you want on red backgrounds
->>>>>>> Stashed changes
             src={isRedBg ? "/logo-gold.png" : "/logo.png"}
             className="h-10 md:h-12 w-auto transition-all duration-300"
             alt="Logo"

@@ -36,22 +36,14 @@ export default function ScrollPlane() {
         height: `calc(100vh - ${offset * 2}px)`,
       }}
     >
-<<<<<<< Updated upstream
       {/* GOLDEN RUNWAY */}
-=======
-      {/* RUNWAY */}
->>>>>>> Stashed changes
       <div
         className="absolute left-1/2 -translate-x-1/2 top-0 h-full w-[4px] bg-gold opacity-90 shadow-[0_0_12px_rgba(189,154,104,0.8)] rounded-full"
       />
 
       {/* PLANE */}
       <motion.div
-<<<<<<< Updated upstream
         style={{ y }}
-=======
-        style={{ y }}   /* removed rotate */
->>>>>>> Stashed changes
         className="absolute left-1/2 -translate-x-1/2"
       >
         <div className="w-11 h-11">
