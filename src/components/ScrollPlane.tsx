@@ -18,10 +18,6 @@ export default function ScrollPlane() {
   const offset = 80;
   const travel = Math.max(0, vh - planeSize - offset * 2);
 
-<<<<<<< Updated upstream
-=======
-  // Bottom → Top movement
->>>>>>> Stashed changes
   const y = useTransform(
     scrollYProgress,
     [0, 0.2, 0.75, 1],
