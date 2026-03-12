@@ -20,13 +20,13 @@ export default function Footer() {
               <Link href="/about" className="block hover transition">
                 About ATC
               </Link>
-              <Link href="/team" className="block hover transition">
+              <Link href="/coming-soon" className="block hover transition">
                 Our team
               </Link>
-              <Link href="/gallery" className="block hover transition">
+              <Link href="/coming-soon" className="block hover transition">
                 Gallery
               </Link>
-              <Link href="/advantages" className="block hover transition">
+              <Link href="/coming-soon" className="block hover transition">
                 Advantages of ATC
               </Link>
             </div>
@@ -38,7 +38,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold font-monda">Quick Links</h3>
             <div className="space-y-3 font-inter">
-              <Link href="/brochure" className="block hover:opacity-90 transition">
+              <Link href="/coming-soon" className="block hover:opacity-90 transition">
                 Download Brochure
               </Link>
               <Link href="/privacy-policy" className="block hover transition text-white/90">

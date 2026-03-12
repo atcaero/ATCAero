@@ -70,7 +70,11 @@ export const Navbar = () => {
         {/* Logo - Switch based on isRedBg state */}
         <Link href="/" className="flex-shrink-0">
           <img
+<<<<<<< Updated upstream
             // CHANGE THIS: Replace '/logo-gold.png' with the specific logo file you want on red backgrounds
+=======
+            // CHANGE THIS: Replace '/logo-gold-gradient.png' with the specific logo file you want on red backgrounds
+>>>>>>> Stashed changes
             src={isRedBg ? "/logo-gold.png" : "/logo.png"}
             className="h-10 md:h-12 w-auto transition-all duration-300"
             alt="Logo"
@@ -126,7 +130,7 @@ export const Navbar = () => {
             </AnimatePresence>
           </div>
 
-          <NavItem label="ABOUT" href="/about" />
+          <NavItem label="ABOUT" href="/coming-soon" />
           <NavItem label="GALLERY" href="/coming-soon" />
           <NavItem label="CAREER" href="/coming-soon" />
           <NavItem label="CONTACT" href="/contact" />
@@ -185,7 +189,7 @@ export const Navbar = () => {
               </AnimatePresence>
             </div>
 
-            <MobileNavItem label="ABOUT" href="/about" onClick={() => setMobileMenuOpen(false)} />
+            <MobileNavItem label="ABOUT" href="/coming-soon" onClick={() => setMobileMenuOpen(false)} />
             <MobileNavItem label="GALLERY" href="/coming-soon" onClick={() => setMobileMenuOpen(false)} />
             <MobileNavItem label="CAREER" href="/coming-soon" onClick={() => setMobileMenuOpen(false)} />
             <MobileNavItem label="CONTACT" href="/contact" onClick={() => setMobileMenuOpen(false)} />

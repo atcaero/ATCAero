@@ -5,11 +5,11 @@ import Footer from "@/components/Footer";
 
 export default function PrivacyPolicy() {
     return (
-        <main className="min-h-screen bg-black text-white selection:bg-[#C49A6C] selection:text-black">
+        <main className="min-h-screen bg-black text-white selection:bg-black selection:text-black">
             <Navbar />
 
             <div className="pt-32 pb-20 px-6 lg:px-20 max-w-7xl mx-auto font-inter">
-                <h1 className="text-4xl lg:text-6xl font-monda font-bold mb-12 text-[#C49A6C]">
+                <h1 className="text-4xl lg:text-6xl font-monda font-bold mb-12">
                     Privacy Policy
                 </h1>
 
@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-monda font-semibold text-white mb-4">1. Introduction</h2>
+                        <h2 className="text-2xl font-monda font-semibold text-white mb-4 text-gold-gradient">1. Introduction</h2>
                         <p>
                             Welcome to Aviation Training Centre ("we," "our," or "us"). We are committed to protecting your privacy and ensuring a secure online experience. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our aviation training services.
                         </p>
@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-monda font-semibold text-white mb-4">2. Information We Collect</h2>
+                        <h2 className="text-2xl font-monda font-semibold text-white mb-4 text-gold-gradient">2. Information We Collect</h2>
 
                         <h3 className="text-xl font-semibold text-[#C49A6C] mb-2">2.1 Personal Information</h3>
                         <p className="mb-4">
@@ -51,7 +51,7 @@ export default function PrivacyPolicy() {
                             <li>Medical certificates and fitness reports</li>
                         </ul>
 
-                        <h3 className="text-xl font-semibold text-[#C49A6C] mb-2">2.2 Non-Personal Information</h3>
+                        <h3 className="text-xl font-semibold mb-2">2.2 Non-Personal Information</h3>
                         <p className="mb-4">
                             We automatically collect certain non-personal information about your interaction with our website:
                         </p>
@@ -66,7 +66,7 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-monda font-semibold text-white mb-4">3. How We Use Your Information</h2>
+                        <h2 className="text-2xl font-monda font-semibold text-white mb-4 text-gold-gradient">3. How We Use Your Information</h2>
                         <p className="mb-4">We use the collected information for the following purposes:</p>
                         <ul className="list-disc pl-5 space-y-1">
                             <li>Process course registrations and manage student records</li>
@@ -81,7 +81,7 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-monda font-semibold text-white mb-4">4. Information Sharing and Disclosure</h2>
+                        <h2 className="text-2xl font-monda font-semibold text-white mb-4 text-gold-gradient">4. Information Sharing and Disclosure</h2>
                         <p className="mb-4">We may share your information in the following circumstances:</p>
 
                         <div className="space-y-4">
@@ -105,7 +105,7 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-monda font-semibold text-white mb-4">5. Data Security</h2>
+                        <h2 className="text-2xl font-monda font-semibold text-white mb-4 text-gold-gradient">5. Data Security</h2>
                         <p>
                             We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. These measures include:
                         </p>
@@ -122,7 +122,7 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-monda font-semibold text-white mb-4">6. Your Rights and Choices</h2>
+                        <h2 className="text-2xl font-monda font-semibold text-white mb-4 text-gold-gradient">6. Your Rights and Choices</h2>
                         <p className="mb-2">You have the following rights regarding your personal information:</p>
                         <ul className="list-disc pl-5 space-y-1 mb-4">
                             <li><strong>Access:</strong> Request a copy of your personal information</li>
@@ -136,7 +136,7 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-monda font-semibold text-white mb-4">7. Cookies and Tracking Technologies</h2>
+                        <h2 className="text-2xl font-monda font-semibold text-white mb-4 text-gold-gradient">7. Cookies and Tracking Technologies</h2>
                         <p>
                             We use cookies and similar tracking technologies to enhance your browsing experience, analyze website traffic, and understand user behavior. These technologies help us:
                         </p>
@@ -152,14 +152,14 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-monda font-semibold text-white mb-4">8. Third-Party Links</h2>
+                        <h2 className="text-2xl font-monda font-semibold text-white mb-4 text-gold-gradient">8. Third-Party Links</h2>
                         <p>
                             Our website may contain links to third-party websites, including DGCA portals, payment processors, and social media platforms. We are not responsible for the privacy practices or content of these third-party sites. We encourage you to review their privacy policies before providing any personal information.
                         </p>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-monda font-semibold text-white mb-4">9. Children's Privacy</h2>
+                        <h2 className="text-2xl font-monda font-semibold text-white mb-4 text-gold-gradient">9. Children's Privacy</h2>
                         <p>
                             Our services are not intended for children under the age of 16. We do not knowingly collect personal information from children under 16. If you believe we have collected information from a child under 16, please contact us immediately.
                         </p>

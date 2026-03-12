@@ -8,7 +8,7 @@ import { Plane } from "lucide-react";
 
 export default function ComingSoonPage() {
   return (
-    <div className="min-h-screen bg-[#0F0F0F] text-white">
+    <div className="min-h-screen bg-black text-white">
       <Navbar />
 
       <section className="relative min-h-screen w-full flex items-center justify-center px-6 lg:px-20 pt-24">
@@ -58,7 +58,7 @@ export default function ComingSoonPage() {
           >
             <Link
               href="/"
-              className="px-8 py-3 rounded-xl bg-[#C49A60] text-black font-montserrat font-semibold hover:opacity-90 transition"
+              className="px-8 py-3 rounded-xl bg-gold-gradient text-black font-montserrat font-semibold hover:opacity-90 transition"
             >
               Back to Home
             </Link>

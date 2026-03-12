@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export const Course = () => {
@@ -80,9 +81,17 @@ export const Course = () => {
           aviation.
         </p>
 
+<<<<<<< Updated upstream
         <button className="px-8 sm:px-10 py-3 sm:py-4 mt-8 sm:mt-12 md:mt-16 bg-gold w-full sm:w-64 text-white font-bold font-monda text-xs sm:text-sm uppercase tracking-widest rounded-full shadow-[0_0_25px_rgba(217,167,74,0.4)] hover:scale-105 transition-all duration-300">
           CONTACT US
         </button>
+=======
+        <Link href="/contact">
+          <button className="px-8 sm:px-10 py-3 sm:py-4 mt-8 sm:mt-12 md:mt-16 bg-gold-gradient w-full sm:w-64 text-white font-bold font-monda text-xs sm:text-sm uppercase tracking-widest rounded-full shadow-[0_0_25px_rgba(217,167,74,0.4)] hover:scale-105 transition-all duration-300">
+            CONTACT US
+          </button>
+        </Link>
+>>>>>>> Stashed changes
       </div>
 
       {/* RIGHT SIDE — Tight Accordion Stack */}
