@@ -20,6 +20,11 @@ module.exports = {
       fontFamily: {
         cormorant: "var(--font-cormorant)",
       },
+      extend: {
+  backgroundImage: {
+    "gold-gradient": "linear-gradient(135deg, #d4af7a 0%, #c49a60 40%, #b8874a 70%, #9c6b30 100%)",
+  },
+},
 
       /* 👇 ADD THIS */
       keyframes: {

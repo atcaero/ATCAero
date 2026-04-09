@@ -16,12 +16,14 @@ export default function ScrollPlane() {
 
   const planeSize = 44;
   const offset = 80;
+
   const travel = Math.max(0, vh - planeSize - offset * 2);
 
+  // ✈️ Bottom → Top movement
   const y = useTransform(
     scrollYProgress,
     [0, 0.2, 0.75, 1],
-    [0, travel * 0.15, travel * 0.85, travel]
+    [travel, travel * 0.85, travel * 0.15, 0]
   );
 
   return (
@@ -34,7 +36,7 @@ export default function ScrollPlane() {
     >
       {/* GOLDEN RUNWAY */}
       <div
-        className="absolute left-1/2 -translate-x-1/2 top-0 h-full w-[4px] bg-gold opacity-90 shadow-[0_0_12px_rgba(189,154,104,0.8)] rounded-full"
+        className="absolute left-1/2 -translate-x-1/2 top-0 h-full w-[4px] bg-gold-gradient opacity-90 shadow-[0_0_12px_rgba(189,154,104,0.8)] rounded-full"
       />
 
       {/* PLANE */}

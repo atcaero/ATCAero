@@ -103,7 +103,7 @@ export default function Footer() {
 
             <div className="space-y-2">
               <h4 className="text-sm font-semibold">Email:</h4>
-              <p className="font-semibold">info.atcaviation@gmail.com</p>
+              <p className="font-semibold">info.atcaviation@atcaero.in</p>
             </div>
           </div>
 

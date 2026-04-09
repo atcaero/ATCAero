@@ -193,7 +193,7 @@ export default function PrivacyPolicy() {
                             If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
                         </p>
                         <div className="space-y-3">
-                            <p><strong className="text-white">Email:</strong> info.atcaviation@gmail.com</p>
+                            <p><strong className="text-white">Email:</strong> info.atcaviation@atcaero.in</p>
                             <p><strong className="text-white">Phone:</strong> +91 9355133320, +91 9355277747</p>
                             <p><strong className="text-white">Address:</strong> Plot No. 16, Block H-1/A, Sector-63, Noida, 161301</p>
                             <p><strong className="text-white">Business Hours:</strong> Monday-Sunday (10:00 AM to 6:00 PM)</p>

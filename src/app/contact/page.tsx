@@ -177,7 +177,7 @@ export default function ContactPage() {
               <div className="flex items-center gap-4">
                 <Mail className="text-gold" size={28} />
                 <p className="text-lg font-semibold text-white">
-                  info.atcaviation@gmail.com
+                  info.atcaviation@atcaero.in
                 </p>
               </div>
             </div>

@@ -119,7 +119,7 @@ export const Navbar = () => {
                   <DropItem label="Pilot Training" href="/courses/pilot" />
                   <DropItem label="Cabin Crew & Hospitality" href="/courses/cabinCrew" />
                   <DropItem label="Drone Pilot Training" href="/courses/Drone" />
-                  <DropItem label="Travel & Tourism" href="/courses/travel" />
+                  <DropItem label="Travel & Tourism" href="/coming-soon" />
                   <DropItem label="Airport Operation Courses" href="/courses/airport" />
                 </motion.div>
               )}
@@ -178,7 +178,7 @@ export const Navbar = () => {
                     <MobileCourseLink href="/courses/pilot" label="Pilot Training" closeMenu={() => setMobileMenuOpen(false)} />
                     <MobileCourseLink href="/courses/cabinCrew" label="Cabin Crew & Hospitality" closeMenu={() => setMobileMenuOpen(false)} />
                     <MobileCourseLink href="/courses/Drone" label="Drone Pilot Training" closeMenu={() => setMobileMenuOpen(false)} />
-                    <MobileCourseLink href="/courses/travel" label="Travel & Tourism" closeMenu={() => setMobileMenuOpen(false)} />
+                    <MobileCourseLink href="/coming-soon" label="Travel & Tourism" closeMenu={() => setMobileMenuOpen(false)} />
                     <MobileCourseLink href="/courses/airport" label="Airport Operation Courses" closeMenu={() => setMobileMenuOpen(false)} />
                   </motion.div>
                 )}
