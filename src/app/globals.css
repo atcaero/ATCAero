@@ -10,16 +10,21 @@
    ---------------------------- */
 @layer base {
   :root {
-    --background: #000000;       /* deep black */
-    --foreground: #ffffff;       /* white text */
+    --background: #000000;
+    /* deep black */
+    --foreground: #ffffff;
+    /* white text */
 
-    --primary: #C49A60;          /* gold */
+    --primary: #C49A60;
+    /* gold */
     --primary-foreground: #ffffff;
 
-    --secondary: #171717;        /* soft black */
+    --secondary: #171717;
+    /* soft black */
     --secondary-foreground: #ffffff;
 
-    --border: #C49A60;           /* gold borders */
+    --border: #C49A60;
+    /* gold borders */
   }
 
   .dark {
@@ -33,6 +38,23 @@
     --secondary-foreground: #ffffff;
 
     --border: #C49A60;
+  }
+}
+
+@layer utilities {
+  .bg-gold-radial {
+    background: radial-gradient(circle, #E7C88F 0%, #D3AF6B 50%, #bd9a68 100%);
+  }
+
+  .bg-gold-radial-soft {
+    background: radial-gradient(circle at center, #E7C88F 0%, #D3AF6B 60%, transparent 100%);
+  }
+
+  .text-gold-radial {
+    background: radial-gradient(circle, #E7C88F, #bd9a68);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
 }
 
@@ -50,12 +72,15 @@
 .font-inter {
   font-family: var(--font-inter);
 }
+
 .font-montserrat {
   font-family: var(--font-montserrat);
 }
+
 .font-monda {
   font-family: var(--font-monda);
 }
+
 .font-arimo {
   font-family: var(--font-arimo);
 }
@@ -94,7 +119,7 @@
   * {
     @apply border-border;
   }
-  
+
   body {
     @apply bg-background text-foreground;
   }

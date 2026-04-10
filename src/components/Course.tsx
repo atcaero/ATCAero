@@ -17,7 +17,7 @@ export const Course = () => {
       id: "cabin",
       title: "Cabin Crew & Hospitality",
       desc: "Equip yourself with essential skills in grooming, safety, and customer service.",
-      bg: "bg-gold",
+      bg: "bg-gold-radial",
       text: "text-black",
     },
     {
@@ -31,7 +31,7 @@ export const Course = () => {
       id: "travel",
       title: "Travel & Tourism",
       desc: "Master e-ticketing, airside operations, and terminal management.",
-      bg: "bg-gold",
+      bg: "bg-gold-radial",
       text: "text-black",
     },
     {
@@ -81,7 +81,7 @@ export const Course = () => {
           aviation.
         </p>
 
-        <button className="px-8 sm:px-10 py-3 sm:py-4 mt-8 sm:mt-12 md:mt-16 bg-gold w-full sm:w-64 text-white font-bold font-monda text-xs sm:text-sm uppercase tracking-widest rounded-full shadow-[0_0_25px_rgba(217,167,74,0.4)] hover:scale-105 transition-all duration-300">
+        <button className="px-8 sm:px-10 py-3 sm:py-4 mt-8 sm:mt-12 md:mt-16 bg-gold-radial w-full sm:w-64 text-white font-bold font-monda text-xs sm:text-sm uppercase tracking-widest rounded-full shadow-[0_0_25px_rgba(217,167,74,0.4)] hover:scale-105 transition-all duration-300">
           CONTACT US
         </button>
       </div>

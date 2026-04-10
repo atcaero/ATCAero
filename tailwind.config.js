@@ -21,10 +21,10 @@ module.exports = {
         cormorant: "var(--font-cormorant)",
       },
       extend: {
-  backgroundImage: {
-    "gold-gradient": "linear-gradient(135deg, #d4af7a 0%, #c49a60 40%, #b8874a 70%, #9c6b30 100%)",
-  },
-},
+        backgroundImage: {
+          "gold-gradient": "radial-gradient(circle, #E7C88F 0%, #D3AF6B 50%, #bd9a68 100%)",
+        },
+      },
 
       /* 👇 ADD THIS */
       keyframes: {

@@ -26,7 +26,7 @@ export default function FlipBox({ front, back }: FlipBoxProps) {
       >
         {/* FRONT - GOLD */}
         <div
-          className="absolute inset-0 bg-gold rounded-2xl p-6 flex flex-col justify-center items-center text-black"
+          className="absolute inset-0 bg-gold-radial rounded-2xl p-6 flex flex-col justify-center items-center text-black"
           style={{
             backfaceVisibility: "hidden",
             WebkitBackfaceVisibility: "hidden",

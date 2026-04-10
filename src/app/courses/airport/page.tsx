@@ -223,8 +223,8 @@ export default function PilotTrainingPage() {
             transition={{ duration: 0.4 }}
           >
             {/* Pill */}
-            <div className="inline-block mb-8 px-6 py-2 border-2 border-dashed border-transparent bg-gold bg-clip-border rounded-full">
-              <span className="font-monda text-sm tracking-wide bg-gold text-white bg-clip-text ">
+            <div className="inline-block mb-8 px-6 py-2 border-2 border-dashed border-transparent bg-gold-radial bg-clip-border rounded-full">
+              <span className="font-monda text-sm tracking-wide bg-gold-radial text-white bg-clip-text ">
                 ABOUT PROGRAM
               </span>
             </div>
@@ -257,9 +257,9 @@ export default function PilotTrainingPage() {
             transition={{ duration: 0.4 }}
             className="relative"
           >
-            <div className="hidden lg:block absolute -left-8 top-0 h-full border-l-2 border-dotted border-transparent bg-gold bg-clip-border" />
+            <div className="hidden lg:block absolute -left-8 top-0 h-full border-l-2 border-dotted border-transparent bg-gold-radial bg-clip-border" />
 
-            <div className="bg-gold text-black text-white rounded-lg p-10 h-full">
+            <div className="bg-gold-radial text-black text-white rounded-lg p-10 h-full">
               <h3 className="font-monda text-2xl mb-10">
                 Document Required
               </h3>

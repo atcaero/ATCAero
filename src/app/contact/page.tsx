@@ -138,7 +138,7 @@ export default function ContactPage() {
                 type="submit"
                 disabled={loading}
                 className="
-                  w-full bg-gold
+                  w-full bg-gold-radial
                   text-black font-monda text-lg py-4 rounded-xl shadow 
                   hover:opacity-90 transition disabled:opacity-50 disabled:cursor-not-allowed
                 "

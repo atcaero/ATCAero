@@ -24,7 +24,7 @@ export default function ComingSoonPage() {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-transparent bg-gold bg-clip-border/40 bg-white/5"
+            className="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-transparent bg-gold-radial bg-clip-border/40 bg-white/5"
           >
             <Plane className="text-gold" size={18} />
             <span className="text-sm tracking-[0.3em] uppercase text-white/80 font-montserrat">
@@ -58,7 +58,7 @@ export default function ComingSoonPage() {
           >
             <Link
               href="/"
-              className="px-8 py-3 rounded-xl bg-gold-gradient text-black font-montserrat font-semibold hover:opacity-90 transition"
+              className="px-8 py-3 rounded-xl bg-gold-radial text-black font-montserrat font-semibold hover:opacity-90 transition"
             >
               Back to Home
             </Link>

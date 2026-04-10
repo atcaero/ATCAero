@@ -36,7 +36,7 @@ export default function ScrollPlane() {
     >
       {/* GOLDEN RUNWAY */}
       <div
-        className="absolute left-1/2 -translate-x-1/2 top-0 h-full w-[4px] bg-gold-gradient opacity-90 shadow-[0_0_12px_rgba(189,154,104,0.8)] rounded-full"
+        className="absolute left-1/2 -translate-x-1/2 top-0 h-full w-[4px] bg-gold-radial opacity-90 shadow-[0_0_12px_rgba(189,154,104,0.8)] rounded-full"
       />
 
       {/* PLANE */}

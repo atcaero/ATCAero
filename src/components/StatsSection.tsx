@@ -29,7 +29,7 @@ export const StatsSection = () => {
             Professional Pilots
           </p>
 
-          <div className="h-[2px] sm:h-[3px] w-32 sm:w-36 md:w-40 bg-gold mt-4 sm:mt-5 md:mt-6" />
+          <div className="h-[2px] sm:h-[3px] w-32 sm:w-36 md:w-40 bg-gold-radial mt-4 sm:mt-5 md:mt-6" />
         </div>
 
         {/* 2 - World Airports */}
@@ -48,7 +48,7 @@ export const StatsSection = () => {
             World Airports
           </p>
 
-          <div className="h-[2px] sm:h-[3px] w-32 sm:w-36 md:w-40 bg-gold mt-4 sm:mt-5 md:mt-6" />
+          <div className="h-[2px] sm:h-[3px] w-32 sm:w-36 md:w-40 bg-gold-radial mt-4 sm:mt-5 md:mt-6" />
         </div>
 
         {/* 3 - Jet Airplanes */}
@@ -67,7 +67,7 @@ export const StatsSection = () => {
             Jet Airplanes
           </p>
 
-          <div className="h-[2px] sm:h-[3px] w-32 sm:w-36 md:w-40 bg-gold mt-4 sm:mt-5 md:mt-6" />
+          <div className="h-[2px] sm:h-[3px] w-32 sm:w-36 md:w-40 bg-gold-radial mt-4 sm:mt-5 md:mt-6" />
         </div>
 
         {/* 4 - Directions */}
@@ -86,7 +86,7 @@ export const StatsSection = () => {
             Directions
           </p>
 
-          <div className="h-[2px] sm:h-[3px] w-32 sm:w-36 md:w-40 bg-gold mt-4 sm:mt-5 md:mt-6" />
+          <div className="h-[2px] sm:h-[3px] w-32 sm:w-36 md:w-40 bg-gold-radial mt-4 sm:mt-5 md:mt-6" />
         </div>
 
       </div>

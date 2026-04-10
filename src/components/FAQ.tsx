@@ -15,7 +15,7 @@ export default function FAQ() {
 
         {/* LEFT SIDE */}
         <div className="text-center lg:text-left">
-          <p className="tracking-[0.25em] text-bold sm:tracking-[0.3em] md:tracking-[0.35em] bg-gold bg-clip-text text-transparent uppercase mb-4 sm:mb-5 md:mb-6 text-xs sm:text-sm font-monda">
+          <p className="tracking-[0.25em] text-bold sm:tracking-[0.3em] md:tracking-[0.35em] uppercase mb-4 sm:mb-5 md:mb-6 text-xs sm:text-sm font-monda">
             Frequently Asked Questions
           </p>
 
@@ -48,7 +48,7 @@ export default function FAQ() {
               </AccordionTrigger>
 
               <AccordionContent
-  className="
+                className="
     font-inter text-white text-sm sm:text-base md:text-lg
     overflow-hidden
     data-[state=closed]:animate-accordion-up
@@ -56,7 +56,7 @@ export default function FAQ() {
     pt-3 sm:pt-4 pr-4 sm:pr-6 md:pr-8 pb-4 sm:pb-5 md:pb-6
     leading-relaxed
   "
->
+              >
 
                 We offer Pilot Training, Cabin Crew, Drone Training, Travel & Tourism,
                 and Airport Operations courses.

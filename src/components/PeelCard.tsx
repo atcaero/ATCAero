@@ -44,7 +44,7 @@ export default function PeelCard({ front, back }: PeelCardProps) {
 
             {/* FRONT LAYER (Gold - Peels away) */}
             <motion.div
-                className="absolute inset-0 bg-gold text-black flex flex-col justify-center items-center p-6 text-black text-center z-10"
+                className="absolute inset-0 bg-gold-radial text-black flex flex-col justify-center items-center p-6 text-black text-center z-10"
                 initial={false}
                 animate={{
                     clipPath: hover

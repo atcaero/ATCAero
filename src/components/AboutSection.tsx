@@ -48,7 +48,7 @@ export const AboutSection = () => {
                 mt-8 sm:mt-10 md:mt-12 px-6 sm:px-8 py-3 sm:py-4 
                 font-montserrat text-sm sm:text-base md:text-lg
                 border border-gold text-gold rounded-md
-                hover:bg-gold hover:text-black transition
+                hover:bg-gold-radial hover:text-black transition
                 w-full sm:w-auto
               "
             >
@@ -65,7 +65,7 @@ export const AboutSection = () => {
                 <FlipCard>
                   <div
                     className="
-                      bg-gold text-black
+                      bg-gold-radial text-black
                       w-full lg:w-[380px] xl:w-[440px]
                       min-h-[110px] sm:min-h-[120px] md:min-h-[130px]
                       rounded-2xl sm:rounded-3xl shadow-xl
@@ -89,7 +89,7 @@ export const AboutSection = () => {
                 <FlipCard>
                   <div
                     className="
-                      bg-gold text-black
+                      bg-gold-radial text-black
                       w-full lg:w-[380px] xl:w-[440px]
                       min-h-[110px] sm:min-h-[120px] md:min-h-[130px]
                       rounded-2xl sm:rounded-3xl shadow-xl
@@ -113,7 +113,7 @@ export const AboutSection = () => {
                 <FlipCard>
                   <div
                     className="
-                      bg-gold text-black
+                      bg-gold-radial text-black
                       w-full lg:w-[380px] xl:w-[440px]
                       min-h-[110px] sm:min-h-[120px] md:min-h-[130px]
                       rounded-2xl sm:rounded-3xl shadow-xl
