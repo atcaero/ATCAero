@@ -36,7 +36,7 @@ const arimo = Arimo({
 });
 
 export const metadata = {
-  title: "ATC",
+  title: "Aviations Trainings Center",
   description: "Aviation Academy Website",
 };
 

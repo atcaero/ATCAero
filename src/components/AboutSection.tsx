@@ -37,7 +37,7 @@ export const AboutSection = () => {
             </h2>
 
             <p className="font-inter text-white/80 text-sm sm:text-base md:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
-              ATC AERO is a premier aviation training institute offering
+              Aviation Trainings Center is a premier aviation training institute offering
               expert-led programs in Pilot Training, Cabin Crew, Drone Operations,
               and Airport Management with DGCA-approved curriculum and global
               affiliations.
